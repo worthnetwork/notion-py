@@ -18,14 +18,14 @@ def get_requirements(fname):
 install_requires = get_requirements("requirements.txt")
 
 setuptools.setup(
-    name="notion",
+    name="worthnotion",
     version="0.0.28",
     author="Jamie Alexandre",
     author_email="jamalex+python@gmail.com",
     description="Unofficial Python API client for Notion.so",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jamalex/notion-py",
+    url="https://github.com/worthnetwork/notion-py",
     install_requires=install_requires,
     include_package_data=True,
     packages=setuptools.find_packages(),
